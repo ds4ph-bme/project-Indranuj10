@@ -31,7 +31,7 @@ see redundancy in feature space(entire analysis is there in the python notebook:
 
 The final list of features was:'LSTAT','DIS ','NOX','RM ','CRIM','AGE ','PTRATIO','B ','TAX'.
 
-In this project I have used libraries like: numpy,pandas,matplotlib,sklearn.pickle,flask.
+In this project I have used libraries like: numpy,pandas,matplotlib,sklearn,pickle,flask.
 
 I built the app using **Flask** and deployed it in **Heroku** platform. 
 
