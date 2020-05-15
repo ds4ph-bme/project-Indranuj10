@@ -37,9 +37,14 @@ I built the app using **Flask** and deployed it in **Heroku** platform.
 
 **APP DOCUMENTATION AND HOW TO USE**
 
+The app requires nine numerical inputs as per the instructions in the input dialog box. Ompressing the predict button we get to know the 
+price of the house (in $1000's).
+
+STEPS TO USE THE APP:
+
 1] GO TO: https://housing-pred.herokuapp.com/predict
 
-2] ENTER ALL THE **9** FIELDS AS STATED IN THE INPUT DIAGLOG BOX
+2] ENTER ALL THE **9** FIELDS AS PER INSTRUCTIONS STATED IN THE INPUT DIAGLOG BOX
 
 3] SEE THE OUTPUT BELOW THE **PREDICT BUTTON**
 
