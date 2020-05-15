@@ -4,7 +4,7 @@ project-Indranuj10 created by GitHub Classroom
 # HOUSE PRICE PREDICTION
 
 The project is on predicting house prices using Boston Housing database from UCI Machine Learning Repository. 
-The database has 13 features and 1 label. The features are as follows:
+The database has 13 features and 1 label. The features and label are as follows:
 
 1. CRIM:      per capita crime rate by town
 2. ZN:        proportion of residential land zoned for lots over 
