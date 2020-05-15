@@ -37,8 +37,7 @@ I built the app using **Flask** and deployed it in **Heroku** platform.
 
 **APP DOCUMENTATION AND HOW TO USE**
 
-The app requires nine numerical inputs as per the instructions in the input dialog box. Ompressing the predict button we get to know the 
-price of the house (in $1000's).
+The app requires nine numerical inputs as per the instructions in the input dialog box. On pressing the predict button we get to know the price of the house (in $1000's).
 
 STEPS TO USE THE APP:
 
