@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  
+</head>
+
+<body>
+ <div class="login" mt-0 p-10>
+	<h1>House Pricing Prediction</h1>
+     <!-- Main Input For Receiving Query to our ML -->
+     <div m-4 p-10>
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="LSTAT" placeholder="Percent lower status population" required="required" />
+        <input type="text" name="DIS " placeholder="Weighted distances to five Boston employment centres" required="required" />
+		<input type="text" name="NOX" placeholder="Nitric oxides concentration (parts per 10 million)" required="required" />
+		<input type="text" name="RM " placeholder="Average number of rooms per dwelling" required="required" />
+		<input type="text" name="CRIM" placeholder="Per capita crime rate by town" required="required" />
+        <input type="text" name="AGE " placeholder="Proportion of owner-occupied units built prior to 1940" required="required" />
+		<input type="text" name="PTRATIO" placeholder="Pupil-Teacher ratio by town" required="required" />
+		<input type="text" name="B " placeholder="proportion of B's" required="required" />
+		<input type="text" name="TAX" placeholder="Full-Value property-tax rate per $10,000" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        
+    </form>
+    </div>
+    
+    <div m-4 pl-10>
+        <p>{{ prediction_text }}</p>
+    </div>
+   <br/>
+   <br/>
+   
+
+ </div>
+
+
+</body>
+</html>
