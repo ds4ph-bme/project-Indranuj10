@@ -22,7 +22,7 @@ The database has 13 features and 1 label. The features are as follows:
 12. B:        1000(Bk - 0.63)^2 where Bk is the proportion of blacks 
              by town
 13. LSTAT:    % lower status of the population
-14. MEDV:     Median value of owner-occupied homes in $1000's 
+14. MEDV:     Median value of owner-occupied homes in $1000's [**LABEL**]
 
 Firstly, the data was split into training and testing. Then I used randomforest regressor on entire feature space to predict the desired
 output using cross-validation. Here my loss function that I was using is RMSE(root mean squared error). Next I performed some feature 
