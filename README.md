@@ -36,7 +36,7 @@ In this project I have used libraries like: numpy,pandas,matplotlib,sklearn.pick
 
 I built the app using Flask and deployed it in Heroku platform. 
 
-**APP DOCUMENTATION AND HOW TO USE 
+**APP DOCUMENTATION AND HOW TO USE**
 
 1] GO TO: https://housing-pred.herokuapp.com/predict
 
@@ -47,4 +47,4 @@ I built the app using Flask and deployed it in Heroku platform.
 SIGNIFICANCE OF THIS APP: This can be used by real-estate investors to predict prices of houses and then invest in those houses which are
 undervalued by the market and hence make great profits in future.
 
-**VIDEO PRESENTATION LINK:
+**VIDEO PRESENTATION LINK:**
