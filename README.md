@@ -27,14 +27,13 @@ The database has 13 features and 1 label. The features are as follows:
 Firstly, the data was split into training and testing. Then I used randomforest regressor on entire feature space to predict the desired
 output using cross-validation. Here my loss function that I was using is RMSE(root mean squared error). Next I performed some feature 
 exploration methods like getting correlation matrix, GLM LASSO, Random Forest ranking and Recussive feature elimination algorithms to 
-see redundancy in feature space(entire analysis is there in the python notebook). Later I added one d=feature at a time with ramdon forest as 
-a regressor and finally reduced the feature space from 13 to 9 features. 
+see redundancy in feature space(entire analysis is there in the python notebook). Later I added one feature at a time with ramdon forest as a regressor and finally got least RMSE for 9 features ,hence reducing the feature space. 
 
 The final list of features was:'LSTAT','DIS ','NOX','RM ','CRIM','AGE ','PTRATIO','B ','TAX'.
 
 In this project I have used libraries like: numpy,pandas,matplotlib,sklearn.pickle,flask.
 
-I built the app using Flask and deployed it in Heroku platform. 
+I built the app using **Flask** and deployed it in **Heroku** platform. 
 
 **APP DOCUMENTATION AND HOW TO USE**
 
