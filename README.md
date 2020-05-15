@@ -45,4 +45,4 @@ I built the app using **Flask** and deployed it in **Heroku** platform.
 
 SIGNIFICANCE OF THIS APP: This can be used by real-estate investors to predict prices of houses and then invest in those houses which are undervalued by the market and hence make great profits in future.
 
-**VIDEO PRESENTATION LINK:**https://www.youtube.com/watch?v=6KWygJbbS1w
+**VIDEO PRESENTATION LINK:** https://www.youtube.com/watch?v=6KWygJbbS1w
